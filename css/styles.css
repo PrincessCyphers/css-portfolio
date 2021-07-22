@@ -4,19 +4,32 @@ body {
     color: #0d0628;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 img {
     width: 300px;
 }
+
 a { 
     color: #f9dbbd;
 }
+
 a:hover {
     color: #fca17d;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
 }
 .content-wrap {
     width: 60%;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 /* Profile  
@@ -38,6 +51,7 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 .projects .btn:hover {
     background: rgba(13,6,40,80%);
